@@ -1,5 +1,5 @@
 steps:
-  - name: lee
+  - name: golang
     args:
       - '-c'
       - >-
